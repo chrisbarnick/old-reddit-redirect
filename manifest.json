@@ -2,9 +2,13 @@
     "name": "Old Reddit Redirect",
     "version": "1.0",
     "description": "Replaces new reddit design with the old one.",
+    "permissions": [
+    	"webRequest",
+   		"webRequestBlocking",
+    	"*://www.reddit.com/*"
+    ],
   	"background": {
-  		"scripts": ["background.js"],
-  		"persistent": false
+  		"scripts": ["background.js"]
     },
     "manifest_version": 2
   }
