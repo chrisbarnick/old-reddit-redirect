@@ -1,0 +1,6 @@
+ {
+    "name": "old.reddit Redirect",
+    "version": "1.0",
+    "description": "Replaces new reddit design with the old one.",
+    "manifest_version": 2
+  }
