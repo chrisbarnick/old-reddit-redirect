@@ -1,6 +1,10 @@
  {
-    "name": "old.reddit Redirect",
+    "name": "Old Reddit Redirect",
     "version": "1.0",
     "description": "Replaces new reddit design with the old one.",
+  	"background": {
+  		"scripts": ["background.js"],
+  		"persistent": false
+    },
     "manifest_version": 2
   }
